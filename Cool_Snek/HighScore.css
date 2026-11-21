@@ -1,0 +1,119 @@
+body{
+    background-color: aquamarine;
+    top: 0px;
+    margin: 0px;
+}
+
+.mainbg{
+    background-image: url(sky.png);
+    background-position: center; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg{
+    background-image: url(backgroundnghighscore.png);
+    background-position: center; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.back{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    margin-top: 1vh;
+}
+
+.buttons{
+    display: flex;
+}
+
+.backbutton button{
+    margin-left: 0vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+    width: 11vw;
+    height: 13vh;
+    border: none;
+    background: transparent;
+    transition: transform 0.5s ease;
+}
+
+.backbutton button img{
+    margin-left: 0vw;
+    margin-right: 2vw;
+    width: 11vw;
+    height: 13vh;
+    border: none;
+}
+
+.backbutton button:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.homebutton button{
+    margin-top: 1vw;
+    width: 11vw;
+    height: 13vh;
+    border: none;
+    background: transparent;
+    transition: transform 0.5s ease;
+    padding: 0px;
+    margin-right: -40vw;
+}
+
+.homebutton button img{
+    margin-left: 0vw;
+    margin-right: 0vw;
+    width: 4.5vw;
+    height: 8.5vh;
+    border: none;
+}
+
+.homebutton button:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.signup{
+    background-image: url(highscorelawit.png);
+    height: 20vw;
+    width: 30vw;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 25vw;
+    margin-top: -6vw;
+}
+
+.score{
+    background-image: url(listhighscore.png);
+    background-size: cover;
+    height: 23vw;
+    width: 50vw;
+    margin-left: 26vw;
+    margin-top: -2vw;
+}
+
+.border{
+    background-image: url(playgroundborder.png);
+    background-color: aqua;
+    background-size: cover;
+    height: 23vw;
+    width: 50vw;
+}
+
+.signdown{
+    background-image: url(bestscoresign.png);
+    background-size: cover;
+    height: 20vw;
+    width: 35vw;
+    margin-top: -280px;
+    margin-left: -6vw;
+}

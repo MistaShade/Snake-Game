@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake | Play</title>
+  <link rel="icon" href="SnakeGameLogo.png" type="image/png">
+  <link rel="stylesheet" href="Snake.css">
+</head>
+<body>
+  <div class="mainbg">
+    <div class="playground">
+      <div class="border">
+        <div class="apple"><img src="apple.png" alt="apple"></div>
+
+        <!-- Add the snake element here -->
+        <div class="snake"></div>
+
+        <div class="dedz">
+          <div class="died">.</div>
+          <div class="scr">.</div>
+          <div class="highscorebutton"><a class="highscoredied"><button><img src="highscore.png" class="highscorebuttonimg" alt="button"></button></a></div>
+          <div class="homebutton"><a class="homebuttondied" href="Home.html"><button><img src="home.png" alt="button"></button></a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="upperrightbuttonsdiv">
+      <a href="Home.html"><button class="homebutton"><img src="home-maingame.png" alt="home button" height="50px" width="50px"></button></a>
+      <audio id="snakegamebgmusic" src="supernaturalAriG.mp3" loop></audio>
+      <button class="soundbutton"><img src="music.png" alt="home button" height="50px" width="50px"></button>
+    </div>
+
+    <div class="controlmovesdiv">
+      <div class="upperrow">
+          <button class="upperleft"></button>
+          <button class="uppermiddle"></button>
+          <button class="upperright"></button>
+      </div>
+      <div class="lowerrow">
+          <button class="lowerleft"></button>
+          <button class="lowermiddle"></button>
+          <button class="lowerright"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="Snake.js"></script>
+</body>
+</html>
